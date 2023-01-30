@@ -66,6 +66,9 @@
     padding: 30px 20px;
     margin-top: 50px
   }
+  .banner{
+    min-height: 300px;
+  }
   .banner__content {
     padding: 25px;
   }
