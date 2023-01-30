@@ -1,0 +1,91 @@
+.hero{
+  padding: 40px 30px;
+  margin-top: 50px
+}
+
+.banner {
+  border-radius: 20px;
+  width: 100%;
+  min-height: 450px;
+  object-fit: contain;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+}
+
+.banner__content {
+  padding: 50px;
+  padding-top: 70px;
+  padding-bottom: 0px;
+  max-width: 500px;
+}
+
+.banner__content h1 {
+  font-size: 50px;
+  line-height: 1.1em;
+}
+
+.banner__content p {
+  max-width: 500px;
+  font-size: 14px;
+}
+
+.buttons {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.watch {
+  background-color: #FF020F;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  width: 150px;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-icon{
+  margin-right: 10px;
+}
+
+.watch:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 5px 45px -10px #FF020F;
+}
+
+.addtolist {
+  background-color: purple;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  width: 150px;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+.addtolist:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .hero{
+    padding: 30px 20px;
+    margin-top: 50px
+  }
+  .banner__content {
+    padding: 25px;
+  }
+  .banner__content p {
+    font-size: 12px;
+  }
+}

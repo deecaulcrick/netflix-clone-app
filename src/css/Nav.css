@@ -1,0 +1,33 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  padding: 15px 70px;
+  border-bottom: 1px solid #333;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 99;
+}
+
+.logo{
+  width: 100px;
+}
+.profile{
+  width: 35px;
+  margin-right: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .Nav {
+   padding: 15px 30px;
+  }
+
+  .profile{
+    width: 35px;
+    margin-right: 50px;
+  }
+}
+

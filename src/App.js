@@ -1,8 +1,9 @@
 import React from "react";
-import './App.css';
-import Nav from "./Nav"
-import Banner from "./Banner";
-import Row from "./Row";
+import './css/App.css';
+import Nav from "./components/Nav"
+import Banner from "./components/Banner";
+import Row from "./components/Row";
+import Footer from "./components/Footer";
 import requests from "./requests";
 
 
@@ -21,7 +22,7 @@ function App() {
       <Row title= "Crime shows for you" fetchUrl = {requests.fetchCrime}/>
       <Row title= "Sci-Fi picks" fetchUrl = {requests.fetchScienceFiction}/>
       
-      
+      <Footer />
       
     </div>
   );
