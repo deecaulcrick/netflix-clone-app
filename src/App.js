@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Nav />
       <Banner />
-      {/*<Row title = "Popular movies and shows" fetchUrl = {requests.fetchTrendingNow}/>*/}
+      
       <Row title= "Upcoming movies" fetchUrl = {requests.fetchUpcoming}/>
       <Row title= "Fantasy picks for you" fetchUrl = {requests.fetchFantasy}/>
       <Row title= "For all the laughs" fetchUrl = {requests.fetchComedy}/>
