@@ -59,22 +59,6 @@
   box-shadow: 0px 5px 45px -10px #FF020F;
 }
 
-.addtolist {
-  background-color: purple;
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  width: 150px;
-  padding: 10px 20px;
-  font-size: 12px;
-  font-weight: 700;
-  margin-right: 10px;
-  transition: 0.5s;
-}
-
-.addtolist:hover {
-  transform: scale(1.1);
-}
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
@@ -84,6 +68,9 @@
   }
   .banner__content {
     padding: 25px;
+  }
+  .banner__content h1 {
+    font-size: 30px;
   }
   .banner__content p {
     font-size: 12px;
