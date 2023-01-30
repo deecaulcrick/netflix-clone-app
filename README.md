@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Netflix UI Clone App
+A Netflix UI Clone App built with React and the TMDB API where users can browse popular movies and TV shows and view details about each title.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Available Scripts
+### Prerequisites
+- Node.js
+- npm
+- TMDB API key
 
-In the project directory, you can run:
+### Installation
+1. Clone the repository
 
-### `npm start`
+`git clone https://github.com/username/netflix-ui-clone.git`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Navigate to the project directory
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`cd netflix-ui-clone`
 
-### `npm test`
+3. Install the dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm install`
+4. Create a .env file in the root of the project and add your TMDB API key
 
-### `npm run build`
+`REACT_APP_TMDB_API_KEY=your_api_key`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Usage
+1. Start the development server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`npm start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Open http://localhost:3000 in your browser
 
-### `npm run eject`
+3. Browse popular movies and TV shows
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Customizing the App
+The src folder contains the core functionality of the Netflix UI Clone App. You can customize the app by editing the template files in the src/components folder and the logic in the src/App.js file.
 
 ### Deployment
+This app can be deployed to a production server with a few additional steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Build the app for production
 
-### `npm run build` fails to minify
+`npm run build`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. Deploy the build folder to your production server
+
+## Built With
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [TMDB API](https://developers.themoviedb.org/3) - An API that allows you to access data from the movie and TV show database
+
+## Contributing
+If you would like to contribute to this project, please fork the repository and submit a pull request.
+
+## Authors
+[Dee caulcrick](https://github.com/deecaulcrick)
